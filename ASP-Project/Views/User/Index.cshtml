@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table  table-bordered border-primary">
+    <thead>
+        <tr>
+            <th class="table-success" scope="col">#</th>
+            <th class="table-success" scope="col">Name</th>
+            <th class="table-success" scope="col">Surname</th>
+            <th class="table-success" scope="col">Age</th>
+            <th class="table-success" scope="col">Country</th>
+            <th class="table-success" scope="col">Phone number</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>@ViewData["Name"]</td>
+            <td>@ViewData["Surname"]</td>
+            <td>@ViewData["Age"]</td>
+            <td>@ViewData["Country"]</td>
+            <td>@ViewData["PhoneNumber"]</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>@ViewData["Name1"]</td>
+            <td>@ViewData["Surname1"]</td>
+            <td>@ViewData["Age1"]</td>
+            <td>@ViewData["Country1"]</td>
+            <td>@ViewData["PhoneNumber1"]</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>@ViewData["Name2"]</td>
+            <td>@ViewData["Surname2"]</td>
+            <td>@ViewData["Age2"]</td>
+            <td>@ViewData["Country2"]</td>
+            <td>@ViewData["PhoneNumber2"]</td>
+        </tr>
+    </tbody>
+</table>
